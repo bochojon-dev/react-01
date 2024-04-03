@@ -1,0 +1,41 @@
+.redmi_note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.redmi {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+.featured_contents {
+  text-align: center;
+}
+.featured_contents h2 {
+  padding: 100px 0 20px;
+}
+.featured_contents ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.featured_contents li {
+  padding-bottom: 12px !important;
+  transition: all 0.2s linear;
+}
+.featured_contents li:hover {
+  color: #ff6900;
+  border-bottom: 1px solid #ff6900;
+  /* padding-bottom: 12px; */
+}
+.featured_texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}

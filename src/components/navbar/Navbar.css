@@ -9,6 +9,7 @@
   left: 0;
   background-color: #fff;
   z-index: 100;
+  box-shadow: 0 1px 6px 0 #353535;
 }
 .navbar {
   display: flex;
