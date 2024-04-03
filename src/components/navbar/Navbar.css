@@ -1,0 +1,30 @@
+.logo {
+  width: 32px;
+  height: 32px;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_side {
+  display: flex;
+  align-items: center;
+}
+.links {
+  display: flex;
+  gap: 40px;
+}
+.icons {
+  display: flex;
+  gap: 40px;
+}
